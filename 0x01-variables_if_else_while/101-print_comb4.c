@@ -8,18 +8,18 @@ int main(void)
 {
 	int n, m, k;
 
-	for (n =35; n < 42; n++)
+	for (n = 35; n < 45; n++)
 	{
-		for (m = 35; m < 43; m++)
+		for (m = 36; m < 45; m++)
 		{
-			for (k = 35; k < 44; k++)
+			for (k = 40; k < 48; k++)
 			{
 				if (k > m && m > n)
 				{
 					putchar(n);
 					putchar(m);
 					putchar(k);
-					if (n != 41 || m != 42)
+					if (n != 43 || m != 44)
 					{
 						putchar(',');
 						putchar(' ');
